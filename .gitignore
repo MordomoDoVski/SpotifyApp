@@ -1,0 +1,47 @@
+# .gitignore
+# Xcode
+*.pbxproj
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+*.ipa
+*.xcarchive
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Swift Package Manager
+.swiftpm/
+*.xcconfig
+
+# Build files
+build/
+.build/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Configuration
+Secrets.swift
+Config.swift
+
+# App-specific
+musics/
+downloads/
+*.cache
